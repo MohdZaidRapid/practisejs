@@ -7,7 +7,7 @@ function capitalFirstLetter(str) {
   let newWord = arr.map((element) => {
     return element.charAt(0).toUpperCase() + element.slice(1);
   });
-  //   return newWord.join(" ");
+  
   return newWord.join(" ");
 }
 

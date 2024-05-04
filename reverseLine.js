@@ -15,19 +15,31 @@ let str = "Welcome to this js guide";
 
 // console.log(reverseLine(str));
 
-function reverseLine(str) {
-  let words = str.split(" "); // Split the string into an array of words
-  let reversedWords = [];
+// function reverseLine(str) {
+//   let words = str.split(" "); // Split the string into an array of words
+//   let reversedWords = [];
 
-  for (let word of words) {
-    let reversedWord = "";
-    for (let i = word.length - 1; i >= 0; i--) {
-      reversedWord += word[i]; // Reverse each word character by character
-    }
-    reversedWords.push(reversedWord); // Push the reversed word to the array
-  }
-  console.log(reversedWords);
-  return reversedWords.join(" "); // Join the reversed words back into a single string
+//   for (let word of words) {
+//     let reversedWord = "";
+//     for (let i = word.length - 1; i >= 0; i--) {
+//       reversedWord += word[i]; // Reverse each word character by character
+//     }
+//     reversedWords.push(reversedWord); // Push the reversed word to the array
+//   }
+//   console.log(reversedWords);
+//   return reversedWords.join(" "); // Join the reversed words back into a single string
+// }
+
+function reverseLine2(str) {
+  let words = str.split(" ");
+  const letter = words
+    .map((word) => {
+      return word.split("").reverse().join("");
+    })
+    .join(" ");
+
+  console.log(letter);
 }
 
-reverseLine(str);
+// reverseLine(str);
+reverseLine2(str);

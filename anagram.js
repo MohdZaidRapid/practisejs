@@ -71,10 +71,10 @@ function countOccurrence(str) {
 function anagramsCount(str1, str2) {
   let cnt1 = countOccurrence(str1);
   let cnt2 = countOccurrence(str2);
-  console.log(cnt1);
 
   for (const item in cnt1) {
     // if(cnt1[item])
+    // console.log(cnt1[item], cnt2[item]);
     if (cnt1[item] !== cnt2[item]) {
       return false;
     }
@@ -84,7 +84,7 @@ function anagramsCount(str1, str2) {
   // Compare the two objects
 }
 
-let str1 = "listen";
-let str2 = "silent";
+let str1 = "basiparachromatin";
+let str2 = "marsipobranchiata";
 let s1 = anagramsCount(str1, str2);
 console.log(s1); // Output: true

@@ -1,4 +1,4 @@
-let str = "abchsdkjskjfeijffiejieorieomxcnxzcmdcndc";
+let str = "zaid";
 
 function countOccurence(str) {
   let obj = {};
@@ -10,7 +10,7 @@ function countOccurence(str) {
       obj[item] = 1;
     }
   }
-  console.log(obj);
+  //   console.log(obj);
   return obj;
 }
 

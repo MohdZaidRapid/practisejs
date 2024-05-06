@@ -12,7 +12,7 @@ function longestWordInSentence(str) {
       str1 = w;
     }
   });
-  console.log(str1);
+  
   return max;
 }
 

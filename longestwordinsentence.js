@@ -1,5 +1,5 @@
 let str =
-  "hello nameeeee my name is zaid jdksjdkjskjdkjskjdkskjdkjskjdkjskjdkjsd skjdksjkdjskjdkjskdkjskdjks hahahahahhahah   pokeonoernoonononotnonrotnornntooioioimoioxuodunowue ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp";
+  "hello nameeeee my name is zaid jdksjdkjskjdkjskjdkskjdkjskjdkjskjdkjsd skjdksjkdjskjdkjskdkjskdjks hahahahahhahah   pokeonoernoonononotnonrotnornntooioioimoioxuodunowue ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp";
 
 function longestWordInSentence(str) {
   let word = str.split(" ");

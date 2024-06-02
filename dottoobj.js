@@ -24,3 +24,5 @@ function dotToObject(obj) {
 }
 
 dotToObject(obj);
+
+console.log("hello");

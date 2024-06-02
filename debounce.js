@@ -7,3 +7,5 @@ function debouncing(func, delay) {
     timer = setTimeout(func, delay);
   };
 }
+
+d

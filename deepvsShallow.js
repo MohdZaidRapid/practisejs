@@ -26,3 +26,6 @@ obj2.address.country = "free";
 
 console.log(obj2);
 console.log(original);
+console.log(original);
+console.log(original);
+console.log(original);

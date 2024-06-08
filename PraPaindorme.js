@@ -1,5 +1,5 @@
 const str = "saippuakivikauppias";
-
+//hello
 function checkPalindrome(str) {
   let i = 0;
   let j = str.length - 1;
